@@ -1,0 +1,55 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+  <head>
+    <title>iceskatesfor.us</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+<body>  
+
+<div id="header">
+  <span class="title"><a href="/">iceskatesfor.us</a></span>
+</div>
+
+<div id="openid-container">
+  
+  <h3>Please choose your preferred login method or <a style="color:red;" href="/">go back</a> and login via Facebook.</h3>
+  {% for p in endpoints %}
+   <a id="{{p.name}}" href="{{p.url}}"><img src="{{p.image}}"></img></a>
+  {% endfor %}
+  <p>Still don't like these choices? <a style="text-decoration:underline" href="mailto:info@iceskatesfor.us">Email me</a></p>
+
+  <div id="spacer"> </div>
+  
+ <div id="footer">
+ <hr>
+  <div id="powered-by">
+     powered by:<br>
+     <a href=http://code.google.com/appengine/><img src="/img/gae-logo.png" alt="google app engine" height="30" width="30"></a>
+  </div>
+  <div id="me">
+   <br><a href=http://gregtracy.com>greg tracy</a> | </a><a href="mailto:info@iceskatesfor.us?subject=iceskatesfor.us%20feedback">send feedback</a>
+  </div>
+ </div>
+ 
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2237321-18']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  </body>
+</html>
+

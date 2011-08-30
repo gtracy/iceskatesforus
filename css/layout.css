@@ -1,0 +1,110 @@
+html,body {
+	height: auto !important;
+	height:100%;
+	min-height: 100%;
+	
+	font-size: 100%;
+	font-family: Georgia;
+}
+
+#container {
+    height: auto !important;
+	height:100%;
+	min-height: 100%;
+}
+#content {
+	width: 100%;
+	margin: 0px auto;
+	padding: 0px;
+	background-color: #eeffff;
+	overflow: auto;
+}
+
+#left {
+	float: left;
+	width: 65%;
+	background-color: #eeeeff;
+}
+
+#right {
+	float: right;
+	width: 35%;
+	background-color: #ffeeee;
+}
+
+#skateList {
+    width: 100%;
+	background-color: #88dddd;
+}
+
+#skate {
+	padding-top: 20px;
+	background-color: #dddd88;
+	margin: 4px;
+	clear: both;
+}
+
+.photo {
+    float: left;
+}
+
+#details {
+	width: 85%;
+	position: absolute top;
+	margin: auto;
+	background-color: #dd88dd;
+	text-align: right;
+	padding: 20px 8px 0px 100px;
+}
+#details hr {
+    width: 60%;
+	padding: 0px;
+	text-align: right;
+	margin-right: 0px;
+}
+.owner {
+	font-size: 1.75em;
+	font-weight: bold;
+}
+
+#header {
+    width: 100%;
+    height: 40px;
+    background-color: #eeeeee;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+#footer {
+  height: 80px;
+  color: #888888;
+  background-color: #ffffee;
+  clear: both;
+  width: 100%;
+  bottom: 0px;
+  margin-right: 10px;
+}
+#powered-by {
+  font-size: 12px;
+  float: left;
+  padding: 4px;
+}
+
+#contact-container {
+  float: middle;
+  padding: 4px;
+  font-size: 12px;
+  postion: top right;
+}
+
+#me {
+  float: right;
+  padding: 4px;
+  font-size: 12px;
+}
+
+div#footer a {
+  font-size: 12px;
+  color: #888888;

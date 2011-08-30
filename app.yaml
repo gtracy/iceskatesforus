@@ -1,0 +1,37 @@
+application: iceskatesforus
+version: 5
+runtime: python
+api_version: 1
+
+derived_file_type:
+- python_precompiled
+
+handlers:
+- url: /_ah/login_required
+  script: openid_login.py
+  
+- url: /css
+  static_dir: css
+  
+- url: /img
+  static_dir: img
+
+- url: /js
+  static_dir: js
+  
+- url: /layout.html
+  static_files: layout.html
+  upload: layout.html
+
+- url: /favicon.ico
+  static_files: favicon.ico
+  upload: favicon.ico
+
+- url: /event.*
+  script: events/event.py
+  
+- url: /user.*
+  script: users/user.py
+
+- url: .*
+  script: main.py

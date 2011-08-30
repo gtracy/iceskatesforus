@@ -1,0 +1,5 @@
+I created this web service to help my neighborhood swap ice skates more efficiently. Written in Python and deployed to App Engine, it's a pretty simple application. 
+
+It allows logged in users to post skates they are willing to sell or give away, upload a photo and describe their condition. Others are given a chance to see what's available and put a claim in.
+
+
